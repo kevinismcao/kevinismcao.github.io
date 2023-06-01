@@ -614,7 +614,7 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
+	ul, ol, dl, table {
 		margin-bottom: 1em;
 	}
 
@@ -2583,4 +2583,67 @@ input, select, textarea {
 		row-gap: 10px;
 		column-gap: 10px;
 	}
+
+	.contact-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.contact-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+	height: 240px;
+	padding-top: 60px;
+	box-sizing: border-box;
+	background-color: #fff;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 24px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 40px;
+}
+.contact-box >h4{
+	margin: 8px;
+	
+}
+
+.contact-box >.fa-solid{
+	font-size: 40px;
+
+}
+
+p{
+	margin-bottom: none;
+}
+
+.logo-box{
+	display: flex;
+	align-items: center;
+	height: 60px;
+	margin-left: 10px;
+}
+.logo-image{
+	
+	width: 30px;
+	height: 30px;
+}
+#header .my-name{
+	position:relative;
+	left: 0.5em;
+	top: 0;
+	height: 3em;
+	line-height: 3em;
+	cursor: default;
 }
